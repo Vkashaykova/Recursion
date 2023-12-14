@@ -18,7 +18,6 @@ public class Variations {
             System.out.println(current);
             return;
         }
-
         for (String symbol : symbols) {
             current.append(symbol);
             generateVariations(symbols, Z, current);

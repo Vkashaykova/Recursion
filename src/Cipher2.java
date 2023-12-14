@@ -13,8 +13,6 @@ public class Cipher2 {
 
         System.out.println(originalMessages.size());
         originalMessages.forEach(System.out::println);
-
-//        scanner.close();
     }
 
     private static List<String> decodeMessages(String secretCode, String cipher) {
